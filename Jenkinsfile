@@ -29,7 +29,7 @@ pipeline {
         stage('Run Application') {
             steps {
                 // Start the JAR application
-                sh 'java -jar build/libs/mvnguava-1.0-SNAPSHOT.jar'
+                sh 'java -jar target/mvnguava-1.0-SNAPSHOT.jar'
             }
         }
 
