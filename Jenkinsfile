@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone your Git repository
-                git url: ''
+                git url: 'https://github.com/Rishitark/mvnguavatest.git'
 
             }
         }
